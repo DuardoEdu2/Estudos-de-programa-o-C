@@ -4,4 +4,8 @@
 #include <string.h>
 
 
-int main (){}
+int main (){
+
+printf("Fala galera");
+
+}
