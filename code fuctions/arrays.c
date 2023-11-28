@@ -5,6 +5,7 @@ int main(){
 
 // array = parecido como uma lista é um tipo de dado que consegue armazenar multiplos valores de mesmo tipo.
 
+    double list[7] = {10,4.3,15,34,23,4,8.9};
     double prices[6];
 
     prices[0] = 10.0;
