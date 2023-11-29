@@ -8,7 +8,7 @@ void sort(int num[], int size){
     {
         for (int j = 0; j < size - 1; j++)
         {
-            if (num[j] > num[j+1])
+            if (num[j] < num[j+1])
             {
                 int temp = num[j];
                 num[j] = num[j+1];
@@ -22,8 +22,6 @@ void sort(int num[], int size){
 
 }
 
-
-
 void printArray(int num[], int size){
 
     for (int i = 0; i < size; i++)
@@ -34,8 +32,6 @@ void printArray(int num[], int size){
 
 
 }
-
-
 
 int main(){
 
@@ -51,6 +47,5 @@ int main(){
 
     sort(num, size);
     printArray(num, size);
-
 
 }
